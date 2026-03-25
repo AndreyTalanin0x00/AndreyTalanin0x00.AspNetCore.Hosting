@@ -1,0 +1,34 @@
+<Project>
+
+  <Sdk Name="Microsoft.NET.Sdk" />
+
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RootNamespace>AndreyTalanin0x00.AspNetCore.Hosting</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Andrey Talanin</Authors>
+    <Description>A set of abstractions for ASP.NET Core generic host.</Description>
+    <RepositoryUrl>https://github.com/AndreyTalanin0x00/AndreyTalanin0x00.AspNetCore.Hosting.git</RepositoryUrl>
+    <Version>0.1.0-dev0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AndreyTalanin0x00.Extensions.Hosting.Abstractions" Version="0.1.0-rc1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.3.9" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
