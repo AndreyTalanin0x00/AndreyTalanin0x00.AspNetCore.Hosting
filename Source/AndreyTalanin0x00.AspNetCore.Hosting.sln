@@ -2,6 +2,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Packages", "1. Packages", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Class Libraries", "2. Class Libraries", "{9EF6A8BA-00F3-4504-A8EB-0471E6377850}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test Libraries", "3. Test Libraries", "{04C7EDD0-CDA9-4E74-9871-210382AE7F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1. Package Tests", "3.1. Package Tests", "{A7406A16-967B-4791-B0FC-4D78039719FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2. Class Library Tests", "3.2. Class Library Tests", "{32E05C8B-5927-4868-9EAC-DE8DE443C740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Solution Items", "4. Solution Items", "{699C3333-37AE-40A6-9638-8354459DD11D}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.Hosting", "AndreyTalanin0x00.AspNetCore.Hosting\AndreyTalanin0x00.AspNetCore.Hosting.csproj", "{BBF10EB1-99A4-4FF7-A415-EE5E83CCB13A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreyTalanin0x00.AspNetCore.Hosting.Abstractions", "AndreyTalanin0x00.AspNetCore.Hosting.Abstractions\AndreyTalanin0x00.AspNetCore.Hosting.Abstractions.csproj", "{5008635C-E17F-4765-B62C-A406481ED6DC}"
@@ -29,6 +41,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7406A16-967B-4791-B0FC-4D78039719FC} = {04C7EDD0-CDA9-4E74-9871-210382AE7F3D}
+		{32E05C8B-5927-4868-9EAC-DE8DE443C740} = {04C7EDD0-CDA9-4E74-9871-210382AE7F3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0FF0E6B-985B-4445-9D8C-EA5147ABDB23}
